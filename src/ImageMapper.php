@@ -49,7 +49,9 @@ class ImageMapper {
     public const BIND_JS = 'js';
 
 
-
+    /**
+     * ImageMapper constructor.
+    */
     public function __construct(){
   
     }
