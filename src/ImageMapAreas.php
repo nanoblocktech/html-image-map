@@ -49,7 +49,7 @@ class ImageMapAreas
     private array $clicks = [];
 
     /**
-     * MappingCalculator constructor.
+     * ImageMapAreas constructor.
      *
      * @param string $image Mapping image url 
      * @param string $description Mapping image description 
