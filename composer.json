@@ -1,0 +1,40 @@
+{
+    "name": "nanoblocktech/html-image-map",
+    "type": "library",
+    "description": "PHP class to create html image map.",
+    "license": "MIT",
+    "keywords": ["PHP", "luminova", "Image Map", "PHP image map"],
+    "authors": [
+        {
+            "name": "Ujah Chigozie",
+            "email": "ujahchigozie@gmail.com"
+        },
+       {
+            "name": "Nanoblock Technology",
+            "email": "code@nanoblocktech.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/laravel/html-image-map/issues",
+        "source": "https://github.com/nanoblocktech/html-image-map"
+    },
+    
+    "require": {
+       "php": "^7.0 || ^8.0"
+    },
+     "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    },
+    "autoload": {
+        "psr-4": { 
+            "Luminova\\ExtraUtils\\": "src/" 
+        }
+  },
+  "config": {
+        "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
